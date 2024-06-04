@@ -1,6 +1,6 @@
 <?php
 
-namespace eftec\tests;
+namespace plubotemplateengine\tests;
 
 /**
  * @author G.J.W. Oolbekkink <g.j.w.oolbekkink@gmail.com>

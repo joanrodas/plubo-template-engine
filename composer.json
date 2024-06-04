@@ -1,20 +1,25 @@
 {
-  "name": "eftec/bladeone",
-  "description": "The standalone version Blade Template Engine from Laravel in a single php file",
+  "name": "sirvelia-labs/plubo-template-engine",
+  "description": "Blade Template Engine for WordPress based on BladeOne",
   "type": "library",
   "keywords": [
     "blade",
     "template",
     "view",
     "php",
-    "templating"
+    "templating",
+    "wordpress"
   ],
-  "homepage": "https://github.com/EFTEC/BladeOne",
+  "homepage": "https://github.com/joanrodas/plubo-template-engine",
   "license": "MIT",
   "authors": [
     {
       "name": "Jorge Patricio Castro Castillo",
       "email": "jcastro@eftec.cl"
+    },
+    {
+      "name": "Joan Rodas Cusidó",
+      "email": "joan@sirvelia.com"
     }
   ],
   "require": {
@@ -22,28 +27,19 @@
     "ext-json": "*"
   },
   "suggest": {
-    "ext-mbstring": "This extension is used if it's active",
-    "eftec/bladeonehtml": "Extension to create forms"
-  },
-  "archive": {
-    "exclude": [
-      "/examples"
-    ]
+    "ext-mbstring": "This extension is used if it's active"
   },
   "autoload": {
     "psr-4": {
-      "eftec\\bladeone\\": "lib/"
+      "plubotemplateengine\\bladeone\\": "lib/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "eftec\\tests\\": "tests/"
+      "plubotemplateengine\\tests\\": "tests/"
     }
   },
-  "bin": [
-    "lib/bladeonecli"
-  ],
   "require-dev": {
-    "phpunit/phpunit": "^8.5.23"
+    "phpunit/phpunit": "^8.5.38"
   }
 }

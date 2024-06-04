@@ -1,7 +1,7 @@
 <?php
 
 
-namespace eftec\tests;
+namespace plubotemplateengine\tests;
 
 use eftec\bladeone\BladeOne;
 use Exception;

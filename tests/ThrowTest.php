@@ -1,6 +1,6 @@
 <?php /** @noinspection ReturnTypeCanBeDeclaredInspection */
 
-namespace eftec\tests;
+namespace plubotemplateengine\tests;
 
 
 

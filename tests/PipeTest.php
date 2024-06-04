@@ -1,5 +1,5 @@
 <?php
-namespace eftec\tests;
+namespace plubotemplateengine\tests;
 
 use Cassandra\Date;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace eftec\tests\directives;
+namespace plubotemplateengine\tests\directives;
 
 use eftec\tests\AbstractBladeTestCase;
 

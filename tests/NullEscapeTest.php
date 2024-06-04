@@ -1,6 +1,6 @@
 <?php
 
-namespace eftec\tests;
+namespace plubotemplateengine\tests;
 
 class NullEscapeTest extends AbstractBladeTestCase
 {
